@@ -11,20 +11,11 @@ It works by:
 
 ## 🚀 Example Usage
 
-main.py --prompt "I'm feeling nostalgic and want something heartwarming"
+`main.py --prompt "I'm feeling nostalgic and want something heartwarming"`
 
 ## 🚀 Example Output
-Loaded 87585 movies.
-Classified emotions: ['love', 'joy']
-Target genres: ['Romance', 'Animation', 'Adventure', 'Drama', 'Comedy']
+<details> <summary>📄 <code>.Rmd</code> Example</summary> <pre> ```{r results='asis', echo=FALSE} cat(" Loaded 87,585 movies. Classified emotions: ['love', 'joy'] Target genres: ['Romance', 'Animation', 'Adventure', 'Drama', 'Comedy'] Top Recommendations: | Title | Genres | Match Score | |------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------| | Pretty Guardian Sailor Moon Eternal The Movie Part 1 (2021) | Action|Adventure|Animation|Comedy|Drama|Fantasy|Romance | 5 | | Revolutionary Girl Utena: Adolescence of Utena (1999) | Action|Adventure|Animation|Comedy|Drama|Fantasy|Romance | 5 | | Wonderful World of the Brothers Grimm, The (1962) | Adventure|Animation|Children|Comedy|Drama|Fantasy|Musical|Romance | 5 | ") ``` </pre> </details>
 
-Top Recommendations:
-                                                                                                                                            title                                                            genres  match_score
-                                                                                      Pretty Guardian Sailor Moon Eternal The Movie Part 1 (2021)           Action|Adventure|Animation|Comedy|Drama|Fantasy|Romance            5
-Revolutionary Girl Utena: Adolescence of Utena (a.k.a. Revolutionary Girl Utena the Movie) (Shoujo kakumei Utena: Adolescence mokushiroku) (1999)           Action|Adventure|Animation|Comedy|Drama|Fantasy|Romance            5
-                                                                                                Wonderful World of the Brothers Grimm, The (1962) Adventure|Animation|Children|Comedy|Drama|Fantasy|Musical|Romance            5
-
----                                                                                                ---.
 ## 📄 Dataset
 
 This project uses the [MovieLens 32M dataset](https://grouplens.org/datasets/movielens/) as a source.
