@@ -14,7 +14,20 @@ It works by:
 `main.py --prompt "I'm feeling nostalgic and want something heartwarming"`
 
 ## 🚀 Example Output
-<pre> Loaded 87,585 movies. Classified emotions: ['love', 'joy'] Target genres: ['Romance', 'Animation', 'Adventure', 'Drama', 'Comedy'] Top Recommendations: | Title | Genres | Match Score | |------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------| | Pretty Guardian Sailor Moon Eternal The Movie Part 1 (2021) | Action\|Adventure\|Animation\|Comedy\|Drama\|Fantasy\|Romance | 5 | | Revolutionary Girl Utena: Adolescence of Utena (1999) | Action\|Adventure\|Animation\|Comedy\|Drama\|Fantasy\|Romance | 5 | | Wonderful World of the Brothers Grimm, The (1962) | Adventure\|Animation\|Children\|Comedy\|Drama\|Fantasy\|Musical\|Romance | 5 | </pre>
+<pre>
+Loaded 87,585 movies.
+Classified emotions: ['love', 'joy']
+Target genres: ['Romance', 'Animation', 'Adventure', 'Drama', 'Comedy']
+
+Top Recommendations:
+
+| Title                                                                                      | Genres                                                       | Match Score |
+|--------------------------------------------------------------------------------------------|--------------------------------------------------------------|-------------|
+| Pretty Guardian Sailor Moon Eternal The Movie Part 1 (2021)                                | Action\|Adventure\|Animation\|Comedy\|Drama\|Fantasy\|Romance | 5           |
+| Revolutionary Girl Utena: Adolescence of Utena (1999)                                     | Action\|Adventure\|Animation\|Comedy\|Drama\|Fantasy\|Romance | 5           |
+| Wonderful World of the Brothers Grimm, The (1962)                                         | Adventure\|Animation\|Children\|Comedy\|Drama\|Fantasy\|Musical\|Romance | 5   |
+</pre>
+
 
 ## 📄 Dataset
 
